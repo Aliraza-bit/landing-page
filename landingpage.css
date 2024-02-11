@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main {
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.top {
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1518232601530-bd3483328189?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDExfGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D);
+    background-size: cover;
+
+}
+
+
+.bottom {
+    width: 100%;
+    height: 40%;
+    background-color: black;
+    display: flex;
+}
+
+#one {
+    width: 25%;
+    color: yellow;
+    height: 100%;
+    background-color:white;
+    color:black;
+    padding:10px;
+}
+#one p{
+    margin-top:10px;
+}
+
+#two {
+    width: 25%;
+    height: 100%;
+    background-color: green;
+    background-image: url(https://media.istockphoto.com/id/533708680/photo/hiker.webp?b=1&s=170667a&w=0&k=20&c=KLQDUQdX7rNXr1Kzn4KXQiRnuoTWIyNTkOGqFm7ZFBI=);
+    background-size: cover;
+    background-position: center;
+}
+
+#three {
+    width: 25%;
+    color: yellow;
+    height: 100%;
+}
+#threetop{
+    background-color: orangered;
+    height:40%;
+    width:100%;
+    color:white;
+}
+#threetop h4{
+    text-align: left;
+    font-size: 20px;
+}
+#threetop p{
+    font-size: 10px;
+    margin-top: 10px;
+}
+#threebottom{
+    
+    height:50%;
+    width:100%;
+    background-image: url(https://media.istockphoto.com/id/488383910/photo/pink-wedding-rose-garland.webp?b=1&s=170667a&w=0&k=20&c=g4_pUc25hRUYAW524LaK9_653bjE50UI2ng0pNewkH4=);
+    background-size: cover;
+}
+
+#four {
+    width: 25%;
+    color: yellow;
+    height: 100%;
+    background-color:gray;
+    color:black;
+}
+.overlay{
+    height:100%;
+    width:100%;
+    position:relative;
+   /* background-color:rgb(77, 76, 76);*/
+}
+#text{
+    width:100%;  
+    position:absolute;
+    bottom:20%;
+    text-align: left;
+    padding:0 10vw;
+    font-size: 40px;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+}
+#textright{
+    display:flex;
+    justify-content: space-between;
+    width:50%;
+    
+}
+#textright p{
+    font-size:10px;
+    width:50%;
+    padding-right:20px;
+    align-items: center;
+}
+#four h5{
+    font-size: 20px;
+    margin-top:05px;
+
+}
+.notify p{
+    color:black;
+    margin-top:10px;
+    text-align: left;
+    margin-left:10px;
+}
+.notify #photo{
+    background-color:red;
+    border-radius: 50%;
+}
+
+
